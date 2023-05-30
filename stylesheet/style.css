@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.logo-img{
+    height:6.7rem;
+    width:10rem;
+    object-fit: fill;
+}
+
+.nav-item{
+    margin-right:3rem !important;
+}
+
+.nav-item a{
+    font-weight:700;
+    font-size:1.35rem !important;
+}
+
+
+.btn:hover{
+    border:1px solid black !important;
+    color:rgba(128, 128, 128, 0.938) !important;
+
+}
+
+/* .background{
+    height:100vh;
+    background-image: url();
+    background-size:cover;
+    /* background-position: top; */
+    /* position:relative; */
+    /* opacity: 0.5;
+    background-repeat: no-repeat;
+    display:flex; */
+    /* align-items: center; */
+    /* justify-content: start; */ /*
+} */
+
+/* .text-uppercase{
+    /* display:none; */
+    /* font-weight: 500;
+    line-height: 10rem !important;
+    font-size: 5rem !important;
+    position:absolute !important; */ /*
+} */
+
+.background{
+    background-image: url("https://i.postimg.cc/kXzz9KTT/domenico-loia-h-GV2-Tf-Oh0ns-unsplash.jpg");
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-origin:content-box;
+    opacity: 0.7;
+  }
+  .text-uppercase{
+    font-size: 3rem;
+    color: #000000;
+    text-align: center;
+    position: absolute;
+    margin-top:9rem;
+    line-height:7rem;
+    top: 50%;
+    left: 50%;
+    animation:fontGlow 3s infinite;
+    transform: translate(-50%, -50%);
+  }
+
+  #myButtons{
+    position:absolute !important;
+  }
+
+  @keyframes fontGlow{
+    50%{
+        text-shadow: 2px 7px 5px rgb(202,192,201), 
+        0px -4px 10px #c6b2c4;
+    }
+  }
+
+  .footer{
+    height:11rem;
+  }
+
+.fas{
+    color:#030303;
+    cursor:pointer;
+}
+
+.fas:hover{
+    color:#c6b2c4
+}
+
+#products:hover{
+    opacity: .8;
+
+}
+
+.cart{
+    border:1px solid black;
+    display:flex;
+    visibility: hidden;
+    justify-content: center;
+}
+
+
+.contentsss{
+    visibility:hidden;
+    border:1px solid red;
+}
+
+.contentsss button{
+    width:2rem;
+    border-radius: 20%;
+    /* margin:.2rem; */
+}
+
+#products{
+    cursor:pointer;
+}
+
+  #contents{
+    height:11rem;
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  .item-img{
+    width:100% !important;
+    height:27.6rem !important;
+  }
+
+@media (max-width:992px){
+    .text-uppercase{
+        font-size:2rem;
+        line-height:5rem;
+        margin-top:20rem;
+    }
+}
+/* .myNavLinks{
+    display: flex !important;
+    justify-content: end !important;
+} */
+
+/* header{
+    background-color: white !important;
+} */
